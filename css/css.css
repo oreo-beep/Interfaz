@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    width: 100%;
+    height: auto;
+}
+.section{
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: row;
+}
+.perfil{
+    width: 450px;
+    height: 600px;
+}
+.img{
+    display: block;
+    height: 200px;
+    margin: auto;
+    margin-left: 55px;
+    margin-top: 140px;
+    border-radius: 100%;
+}
+.usuario{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-family:sans-serif;
+}
+.alias{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.info{
+    width: 100%;
+    height: 600px;
+}
+.cajaBotones{
+    width: 100%;
+    height: auto;
+}
+.nav_info{
+    list-style: none;
+    margin-top: 30px;
+    
+    display: flex;
+    flex-direction: row;
+}
+.nav_info li{
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: beige;
+}
+.nav_info li:hover{
+    border-bottom: 1px solid black;
+    transition: 0.3s;
+ }
+.Cont_Destacado{
+    display: none;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: gray;
+}
+.Cont_Proyecto{
+    display: none;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: salmon;
+}
+.Cont_Biografia{
+    display: none;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: violet;
+}
+.activarCaja{
+    display: block;
+    height: 500px;
+}
+
